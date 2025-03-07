@@ -1,4 +1,4 @@
 Explain the difference between calling a function from within 
 a script block and calling a function from a button's onclick 
 attribute. Write a short answer.
-
+ calling a function from within a script block is different because it embed's the other function within the script block so it activates everything within that function it is embeded too whilst calling a function from a functions onclick attribute is a form of calling it from outside of a function and having it work as a solo operator.

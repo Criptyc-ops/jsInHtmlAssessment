@@ -4,10 +4,17 @@
     <title>Button with onclick Event</title>
 </head>
 <body>
-
+    <button click(this)>Click me!</button>
     <!-- Create a button that, when clicked, displays an alert 
      saying "Button clicked!" Use a function to handle the click event. -->
-
+    <script>
+        function click(this){
+        var buttonClick = document.getElementsByTagName("button")
+        buttonClick.addEventListener = ('click' )
+        var click = onclick = (alert ("Button clicked!"))
+        }
+        click(this)
+    </script>
     
 </body>
 </html>

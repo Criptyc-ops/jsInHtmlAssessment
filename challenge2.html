@@ -6,7 +6,15 @@
 <body>
     <!-- Create an HTML element with an id of "display" and use 
      JavaScript to change its text content to "Changed by JavaScript!". -->
+     <p id="display">From HTML!</p>
 
-
+    <script>
+        function words(){
+        var words = document.getElementById ("display");
+        words.innerHTML = ("Changed by Javascript");
+        
+        }
+        words()
+    </script>
 </body>
 </html>

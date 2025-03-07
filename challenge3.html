@@ -7,10 +7,16 @@
     <!-- Create multiple <p> tags and use JavaScript to change 
         the text color of all <p> tags to red. -->
 
-    <p>Paragraph 1</p>
-    <p>Paragraph 2</p>
-    <p>Paragraph 3</p>
-
+    <p turnRed(this)>Paragraph 1</p>
+    <p turnRed(this)>Paragraph 2</p>
+    <p turnRed(this)>Paragraph 3</p>
+<script>
+    function turnRed(element){
+      var paragraph = document.getElementByTagName = ("p");
+        paragraph.style.color = ('red')
+    }
+    turnRed()
     
+    </script>
 </body>
 </html>
